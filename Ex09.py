@@ -2,7 +2,7 @@
 
 from time import sleep
 
-peso = float(input("Digite seu peso: "))
+peso = float(input("Digite seu peso (em Kg): "))
 
 altura = float(input("Digite sua altura (em cm): "))
 
