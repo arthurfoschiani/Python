@@ -1,8 +1,10 @@
-import pandas as pd
+#Calcular e exibir a área de um retângulo, a partir dos valores da base e altura que serão digitados. Se a área for maior que 100, exibir a mensagem “Terreno grande”.
 
-fam = {'names':['Heitor', 'Arthur'],
-        'Idade':[21, 18]}
+base = float(input("Digite o valor da base: "))
 
-df = pd.DataFrame(fam)
+altura = float(input("Digite o valor da altura: "))
 
-print(df)
+area = base * altura
+
+if base > 100:
+    print("Terreno grande")

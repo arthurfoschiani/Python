@@ -1,17 +1,12 @@
-#Verificar se formam ou não um triângulo
+#Entrar via teclado, com dois valores distintos. Exibir o maior deles.
 
-l1 = float(input("Digite o primeiro lado do triangulo: "))
+num1 = float(input("Digite o primeiro valor: "))
 
-l2 = float(input("Digite o segundo lado do triangulo: "))
+num2 = float(input("Digite o segundo valor: "))
 
-l3 = float(input("Digite o terceiro lado do triangulo: "))
-
-if l1 + l2 > l3 or l1 + l3 > l2 or l2 + l3 > l1:
-    if l1 == l2 == l3:
-        print("Este trinagulo é equilátero")
-    elif l1 == l2 != l3 or l2 == l3 != l1 or l1 == l3 != l2:
-        print("Este é um triangulo isósceles")
-    else:
-        print("Este é um triangulo escaleno")
+if num1 > num2:
+    print("O maior número é: {}".format(num1))
+elif num2 > num1:
+    print("O maior número é: {}".format(num2))
 else:
-    print("As medidas não formam um trinagulo")
+    print("Os dois números são iguais")
