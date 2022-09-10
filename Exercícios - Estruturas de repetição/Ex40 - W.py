@@ -1,17 +1,14 @@
 n = 20
-ultimo=1
-penultimo=1
+ultimo = -1
+penultimo = 1
 anti = 1
+termo = ultimo + penultimo + anti
 
-print("0")
-print("1")
-print("1")
-print("1")
 count=1
 while count <= n:
-    termo = ultimo + penultimo + anti
+    print(termo)
     anti = penultimo
     penultimo = ultimo
     ultimo = termo
     count += 1
-    print(termo)
+    termo = ultimo + penultimo + anti

@@ -1,11 +1,9 @@
 n = 30
-ultimo=1
+ultimo=0
 penultimo=1
+termo = ultimo + penultimo
 
-print("0")
-print("1")
-print("1")
-count=3
+count=1
 while count <= n:
     termo = ultimo + penultimo
     penultimo = ultimo
