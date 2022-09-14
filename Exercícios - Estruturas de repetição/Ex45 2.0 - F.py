@@ -1,5 +1,6 @@
 soma = 0
 menor = 0
+maior = 0
 positivo = 0
 negativo = 0
 
