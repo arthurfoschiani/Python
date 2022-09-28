@@ -8,4 +8,4 @@ multiplicador = int(input("Digite o multiplicador: "))
 
 for i, item in enumerate(lista):
     produtos.append(item * multiplicador)
-    print(produtos[i])
+    print("{} x {} = {}".format(multiplicador, lista[i], produtos[i]))
