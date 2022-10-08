@@ -6,7 +6,7 @@ for i in range(20):
 
 for i in range(len(numeros)):
     maximo = i
-    for j in range(i + 1, len(numeros), 1):
+    for j in range(i + 1, len(numeros)):
         if numeros[j] > numeros[maximo]:
             maximo = j
     
