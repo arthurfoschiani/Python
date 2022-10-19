@@ -1,0 +1,18 @@
+matriz = [ [0,0,0,0], [0,0,0,0], [0,0,0,0] ]
+matriz2 = [ [0,0,0,0], [0,0,0,0], [0,0,0,0] ]
+
+for l in range(0, 3, 1):
+    for c in range(0, 4, 1):
+        matriz[l][c] = int(input('Digite um numero: '))
+
+multiplicativa = int(input('Digite a constante multiplicativa: '))
+
+
+for l in range(0, 3, 1):
+    for c in range(0, 4, 1):
+        matriz2[l][c] = matriz[l][c] * multiplicativa
+ 
+# Mostra a matriz de forma real
+for i in range(0, 3, 1):
+    print(matriz2[i])
+ 
